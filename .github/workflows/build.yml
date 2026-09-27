@@ -5,11 +5,11 @@ on:
   workflow_dispatch:
     inputs:
       tag:
-        description: 'v2.6.4'
+        description: '请填写发布Releases的版本号（留空不发布）'
         required: false
         default: ''
       text:
-        description: 'none'
+        description: '请填写发布的说明'
         required: false
         default: ''
 concurrency:
